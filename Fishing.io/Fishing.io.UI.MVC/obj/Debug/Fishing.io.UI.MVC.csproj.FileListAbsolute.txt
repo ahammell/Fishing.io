@@ -241,3 +241,4 @@ C:\Users\Geranis\Documents\Fishing.io\Fishing.io\Fishing.io.UI.MVC\obj\Debug\Fis
 C:\Users\Geranis\Documents\Fishing.io\Fishing.io\Fishing.io.UI.MVC\obj\Debug\Fishing.io.UI.MVC.csproj.CopyComplete
 C:\Users\Geranis\Documents\Fishing.io\Fishing.io\Fishing.io.UI.MVC\obj\Debug\Fishing.io.UI.MVC.dll
 C:\Users\Geranis\Documents\Fishing.io\Fishing.io\Fishing.io.UI.MVC\obj\Debug\Fishing.io.UI.MVC.pdb
+C:\Users\Geranis\Documents\Fishing.io\Fishing.io\Fishing.io.UI.MVC\obj\Debug\Fishing.io.UI.MVC.csprojAssemblyReference.cache
