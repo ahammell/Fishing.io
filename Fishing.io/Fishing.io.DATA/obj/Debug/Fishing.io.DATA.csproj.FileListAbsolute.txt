@@ -4,3 +4,8 @@ C:\Users\Austin\Documents\Fishing.io\Fishing.io\Fishing.io.DATA\obj\Debug\Fishin
 C:\Users\Austin\Documents\Fishing.io\Fishing.io\Fishing.io.DATA\obj\Debug\Fishing.io.DATA.csproj.CoreCompileInputs.cache
 C:\Users\Austin\Documents\Fishing.io\Fishing.io\Fishing.io.DATA\obj\Debug\Fishing.io.DATA.dll
 C:\Users\Austin\Documents\Fishing.io\Fishing.io\Fishing.io.DATA\obj\Debug\Fishing.io.DATA.pdb
+C:\Users\Geranis\Documents\Fishing.io\Fishing.io\Fishing.io.DATA\bin\Debug\Fishing.io.DATA.dll
+C:\Users\Geranis\Documents\Fishing.io\Fishing.io\Fishing.io.DATA\bin\Debug\Fishing.io.DATA.pdb
+C:\Users\Geranis\Documents\Fishing.io\Fishing.io\Fishing.io.DATA\obj\Debug\Fishing.io.DATA.csproj.CoreCompileInputs.cache
+C:\Users\Geranis\Documents\Fishing.io\Fishing.io\Fishing.io.DATA\obj\Debug\Fishing.io.DATA.dll
+C:\Users\Geranis\Documents\Fishing.io\Fishing.io\Fishing.io.DATA\obj\Debug\Fishing.io.DATA.pdb
