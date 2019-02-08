@@ -1,1 +1,11 @@
-.vs/
+Fishing.io/.vs/
+Fishing.io/packages/
+Fishing.io/obj/Debug/
+Fishing.io/bin/
+Fishing.io/Fishing.io/bin/
+Fishing.io/Fishing.io/obj/Debug/build.force
+Fishing.io/.vs/
+Fishing.io/Fishing.io.DATA/obj/Debug/Fishing.io.DATA.csprojResolveAssemblyReference.cache
+Fishing.io/Fishing.io.UI.MVC/obj/Debug/Fishing.io.UI.csprojResolveAssemblyReference.cache
+Fishing.io/packages/
+Fishing.io/Fishing.io.UI.MVC/obj/
