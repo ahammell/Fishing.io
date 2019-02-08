@@ -1,6 +1,4 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -39,4 +37,46 @@ input[type="checkbox"].input-validation-error {
 
 .validation-summary-valid {
     display: none;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.header {
+    height: 15vw;
+}
+
+.banner-background {
+    background-image: url('Images/summer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-image {
+    height: 14vw;
+    width: 12vw;
+    margin-left: 28vw;
+    margin-top: 2vw;
+}
+
+.banner-text {
+    font-size: 5vw;
+    color: greenyellow;
+    text-shadow: 1px 1px orange;
+    margin-left: 20vw;
+    margin-top: 3vw;
+}
+.width50{
+    max-width:50%;
+}
+a:hover {
+    text-decoration:none !important;
+}
+.form-control {
+    width:50vw;
+}
+
+@media(max-width: 1010px) {
+    /*Mobile Beginning*/
 }
