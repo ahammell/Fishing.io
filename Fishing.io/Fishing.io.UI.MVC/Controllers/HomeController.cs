@@ -7,6 +7,7 @@ namespace Fishing.io.UI.MVC.Controllers
         [HttpGet]
         public ActionResult Index()
         {
+            //var photos = db.Products.Include(p => p.PhotoType);
             return View();
         }
 

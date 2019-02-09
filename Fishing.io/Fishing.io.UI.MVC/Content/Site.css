@@ -5,6 +5,8 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    max-width: 95%;
+    margin:auto;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -79,4 +81,18 @@ a:hover {
 
 @media(max-width: 1010px) {
     /*Mobile Beginning*/
+}
+
+.grid-item {
+    width: 350px !important;
+    height: 400px !important;
+    float: left !important;
+    background: lightgrey !important;
+    border: 2px solid #333 !important;
+    border-color: hsla(0, 0%, 0%, 0.5) !important;
+    border-radius: 5px !important;
+    margin: 20px !important;
+    padding: 20px !important;
+    text-align: center !important;
+    font-weight: 900 !important;
 }
