@@ -2,19 +2,19 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, height=device-height">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    <script src="~/Content/masonry-docs/js/masonry-docs.min.js"></script>
     <link href="~/Content/masonry-docs/css/masonry-docs.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
     @* Header Beginning *@
     <div class="header banner-background">
         <div class="row">
-            <div class="width50">
+            <div class="width50" style="margin-top:4vw;">
                 <a href="~/Home/Index">
-                    <span class="banner-text">Lure Pro</span>
+                    <span class="banner-text">YOUR LOGO HERE</span>
                 </a>
             </div>
             <div class="width50">
@@ -43,7 +43,7 @@
         </div>
 
     </nav>
-    <div class="container body-content">
+    <div class="body-content">
         @RenderBody()
         <hr />
         <footer>
@@ -53,6 +53,9 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Content/masonry-docs/masonry.pkgd.js"></script>
+    <script src="~/Content/masonry-docs/js/masonry-docs.min.js"></script>
     @RenderSection("scripts", required: false)
+
 </body>
 </html>

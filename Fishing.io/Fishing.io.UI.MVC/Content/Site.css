@@ -1,11 +1,14 @@
-﻿body {
+﻿html, body{
+    overflow-x:hidden;
+}
+body {
+    background-color:white !important;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 95%;
+    max-width: 100% !important;
+    width:98% !important;
     margin:auto;
 }
 
@@ -58,16 +61,15 @@ input[type="checkbox"].input-validation-error {
 .header-image {
     height: 14vw;
     width: 12vw;
-    margin-left: 28vw;
+    margin-left: 20vw;
     margin-top: 2vw;
 }
 
 .banner-text {
-    font-size: 5vw;
-    color: greenyellow;
-    text-shadow: 1px 1px orange;
+    font-size: 3vw;
+    color: white;
+    text-shadow: 1px 1px black;
     margin-left: 20vw;
-    margin-top: 3vw;
 }
 .width50{
     max-width:50%;
@@ -82,17 +84,39 @@ a:hover {
 @media(max-width: 1010px) {
     /*Mobile Beginning*/
 }
+.center{
+    width:100%;
+    margin:auto;
+}
+.grid{
+    max-width:100% !important;
+    width:98% !important;
+    margin-left:5vw;
+    margin-right:auto;
+}
 
 .grid-item {
-    width: 350px !important;
-    height: 400px !important;
+    width: 15vw !important;
+    min-width: 75px !important;
+    height: 20vw !important;
+    min-height:100px !important;
     float: left !important;
     background: lightgrey !important;
     border: 2px solid #333 !important;
     border-color: hsla(0, 0%, 0%, 0.5) !important;
     border-radius: 5px !important;
-    margin: 20px !important;
+    margin-top: 20px;
+    margin-bottom:20px;
     padding: 20px !important;
     text-align: center !important;
     font-weight: 900 !important;
+}
+.cardBottom{
+    margin-top:50%;
+}
+.info-button{
+
+}
+.cart-button{
+
 }
