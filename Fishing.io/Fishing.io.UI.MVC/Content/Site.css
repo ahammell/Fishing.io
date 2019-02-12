@@ -61,10 +61,13 @@ input[type="checkbox"].input-validation-error {
 .header-image {
     height: 14vw;
     width: 12vw;
-    margin-left: 20vw;
+    margin-left: 30vw;
     margin-top: 2vw;
 }
-
+.margin-top-vw{
+    margin-top: 2vw;
+    margin-left:25vw;
+}
 .banner-text {
     font-size: 3vw;
     color: white;
@@ -80,9 +83,34 @@ a:hover {
 .form-control {
     width:50vw;
 }
-
-@media(max-width: 1010px) {
+.logoImg{
+    height:10vw;
+}
+@media(max-width: 900px) {
     /*Mobile Beginning*/
+    .grid{
+        margin-left: 9vw !important;
+    }
+    .grid-item{
+        min-width: 150px !important;
+        min-height: 200px !important;
+    }
+    .cardBottom{
+        display:none;
+    }
+    .info-button{
+        display:none;
+    }
+    .cart-button{
+        display:none;
+    }
+    .picPad {
+        padding-top: 1vw !important;
+    }
+    .cardPic{
+        height: 185px !important;
+        width: 140px !important;
+    }
 }
 .center{
     width:100%;
@@ -96,27 +124,54 @@ a:hover {
 }
 
 .grid-item {
-    width: 15vw !important;
-    min-width: 75px !important;
-    height: 20vw !important;
-    min-height:100px !important;
+    width: 15vw;
+    min-width: 75px;
+    height: 20vw;
+    min-height: 100px;
     float: left !important;
     background: lightgrey !important;
     border: 2px solid #333 !important;
     border-color: hsla(0, 0%, 0%, 0.5) !important;
     border-radius: 5px !important;
-    margin-top: 20px;
-    margin-bottom:20px;
-    padding: 20px !important;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    padding: 0;
     text-align: center !important;
     font-weight: 900 !important;
 }
 .cardBottom{
-    margin-top:50%;
+    padding-top:2.8vw;
 }
-.info-button{
-
+.info-button {
+    position: absolute;
+    height: 3vw;
+    width: 4vw;
+    margin-top: .1vw;
+    left: -0.05vw;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0 0 0 5px;
+    font-size:1.5vw;
 }
-.cart-button{
-
+.cart-button {
+    position:absolute;
+    height: 3vw;
+    width: 11vw;
+    margin-top: .1vw;
+    right:-0.1vw;
+    border-radius: 0 0 5px 0;
+    font-size:1vw;
+}
+.cardPic {
+    height: 12vw;
+    border-radius: 5px;
+}
+.picPad{
+    padding-top:2vw;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }

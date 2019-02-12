@@ -10,11 +10,11 @@
 </head>
 <body>
     @* Header Beginning *@
-    <div class="header banner-background">
+    <div id="header" class="header banner-background">
         <div class="row">
-            <div class="width50" style="margin-top:4vw;">
+            <div class="width50 margin-top-vw">
                 <a href="~/Home/Index">
-                    <span class="banner-text">YOUR LOGO HERE</span>
+                    <img class="logoImg" src="~/Content/Images/YOURLOGOHERE.png" />
                 </a>
             </div>
             <div class="width50">
@@ -23,7 +23,7 @@
         </div>
     </div>
     @* Nav Beginning *@
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -56,6 +56,59 @@
     <script src="~/Content/masonry-docs/masonry.pkgd.js"></script>
     <script src="~/Content/masonry-docs/js/masonry-docs.min.js"></script>
     @RenderSection("scripts", required: false)
+    @*<script>
+        function Utils() {
 
+        }
+
+        Utils.prototype = {
+            constructor: Utils,
+            isElementInView: function (element, fullyInView) {
+                var pageTop = $(window).scrollTop();
+                var pageBottom = pageTop + $(window).height();
+                var elementTop = $(element).offset().top;
+                var elementBottom = elementTop + $(element).height();
+
+                if (fullyInView === true) {
+                    return ((pageTop < elementTop) && (pageBottom > elementBottom));
+                } else {
+                    return ((elementTop <= pageBottom) && (elementBottom >= pageTop));
+                }
+            }
+        };
+
+        var Utils = new Utils();
+
+        var isElementInView = Utils.isElementInView($('#header'), false);
+        var navbar = document.getElementById('nav');
+        if (isElementInView) {
+            navbar.classList.remove('sticky');
+        }
+        else {
+            navbar.classList.add('sticky')
+        }
+        $(window).scroll(function () {
+            var docViewTop = $(window).scrollTop();
+            var docViewBottom = docViewTop + $(window).height();
+            var header = document.getElementById('header');
+            var sticky = navbar.offsetTop;
+            if (header.offsetTop >= sticky) {
+                navbar.classList.add('sticky')
+            } else {
+                navbar.classList.remove('sticky');
+            }
+        });
+
+
+        //$(window).scroll(function () {
+        //    var sticky = $('.navbar').offset().top
+        //    if (window.pageYOffset >= sticky) {
+        //        $('.navbar-fixed-top').addClass('sticky');
+        //    }
+        //    else {
+        //        $('.navbar-fixed-top').removeClass('sticky');
+        //    }
+        //});
+    </script>*@
 </body>
 </html>
