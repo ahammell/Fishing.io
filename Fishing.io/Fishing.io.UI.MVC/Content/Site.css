@@ -165,6 +165,7 @@ a:hover {
 .cardPic {
     height: 12vw;
     border-radius: 5px;
+    border: 2px solid black;
 }
 .picPad{
     padding-top:2vw;

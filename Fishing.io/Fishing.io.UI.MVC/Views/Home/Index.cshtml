@@ -3,6 +3,18 @@
 }
 <div class="grid">
     <div class="center">
+        @for (int i = 0; i < 4; i++)
+        {
+            <div class="grid-item">
+                <div class="picPad">
+                    <a onclick=""><img class="cardPic" src="~/Content/Images/crankbait.jpg" /></a>
+                </div>
+                <div class="cardBottom">
+                    <button class="info-button"><i class="fas fa-info-circle"></i></button>
+                    <input class="btn btn-success cart-button" value="Add to Cart" type="button" />
+                </div>
+            </div>
+        }
         @for (int i = 0; i < 20; i++)
         {
             <div class="grid-item">
